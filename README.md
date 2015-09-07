@@ -14,6 +14,6 @@ __Item templates:__
 - Model (extends on EntityModel)
 - View (usage of @model)
 
-Fore more information about DXA, (https://community.sdl.com/dxa)[https://community.sdl.com/dxa].
+Fore more information about DXA, https://community.sdl.com/dxa.
 
-The Source or you have bug, enhancement or question post an issue on GitHub, (https://github.com/jarnohenneman/dxa-visual-studio-templates)[https://github.com/jarnohenneman/dxa-visual-studio-templates].
+The Source or you have bug, enhancement or question post an issue on GitHub, https://github.com/jarnohenneman/dxa-visual-studio-templates.
