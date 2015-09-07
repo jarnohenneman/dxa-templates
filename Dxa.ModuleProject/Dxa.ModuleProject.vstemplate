@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DXA Module Project</Name>
+    <Description>DXA Module Project: an accelerator into your custom module for DXA.
+      
+More information about the Digital Experience Accelerator can be found at https://community.sdl.com/dxa. </Description>
+    <Icon>Dxa.ModuleProject.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>aea9ff14-3244-4877-894b-5cca11349355</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Dxa.ModuleProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="Dxa.VsixExtensions.a452ff57-dc92-4db0-9ae7-9d45eb1cd405">
+      <!-- package id="Microsoft.AspNet.Mvc" version="5.1.2" targetFramework="net45" / -->
+    </packages>
+  </WizardData>
+</VSTemplate>

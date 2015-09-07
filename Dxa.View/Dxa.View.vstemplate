@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DXA View</Name>
+    <Description>DXA View: contains usage of @model DxaModel. Beside that the view contains a div with HtmlClasses, DxaEntityMarkup and an example field.
+
+More information about the Digital Experience Accelerator can be found at https://community.sdl.com/dxa. </Description>
+    <Icon>Dxa.View.ico</Icon>
+    <TemplateID>a98ac867-a9fc-4161-bc43-debc3b6ae43b</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>DxaView.cshtml</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">DxaView.cshtml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

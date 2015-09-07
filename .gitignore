@@ -1,0 +1,29 @@
+# Mac
+.DS_Store
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Vsix Extensions
+Dxa.VsixExtensions/bin
+Dxa.VsixExtensions/obj
+
+# Project
+Dxa.ModuleProject/bin
+Dxa.ModuleProject/obj
+Dxa.SiteProject/bin
+Dxa.SiteProject/obj
+
+# Templates
+Dxa.AreaRegistration/bin
+Dxa.AreaRegistration/obj
+Dxa.Controller/bin
+Dxa.Controller/obj
+Dxa.Model/bin
+Dxa.Model/obj
+Dxa.View/bin
+Dxa.View/obj
+
+

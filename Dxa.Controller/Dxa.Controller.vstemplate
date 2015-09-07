@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DXA Controller</Name>
+    <Description>DXA Controller: ready with extension on BaseController.
+
+More information about the Digital Experience Accelerator can be found at https://community.sdl.com/dxa. </Description>
+    <Icon>Dxa.Controller.ico</Icon>
+    <TemplateID>918bb88e-b636-4eeb-8ee5-500851e90d01</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>DxaController.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">DxaController.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

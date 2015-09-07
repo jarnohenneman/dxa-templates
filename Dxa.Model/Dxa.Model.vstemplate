@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DXA Model</Name>
+    <Description>DXA Model: ready with extension on EntityModel.
+
+More information about the Digital Experience Accelerator can be found at https://community.sdl.com/dxa. </Description>
+    <Icon>Dxa.Model.ico</Icon>
+    <TemplateID>51de20d3-def2-4b5e-872a-0084f9a17866</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>DxaModel.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">DxaModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

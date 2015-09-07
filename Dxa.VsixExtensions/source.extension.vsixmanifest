@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Dxa.VsixExtensions.a452ff57-dc92-4db0-9ae7-9d45eb1cd405" Version="1.0" Language="en-US" Publisher="Jarno Henneman" />
+    <DisplayName>Dxa Templates</DisplayName>
+    <Description xml:space="preserve">Visual Studio templates for Digital Experience Accelerator.</Description>
+    <License>LICENSE.txt</License>
+    <Tags>Digital Experience Accelerator, dxa</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="(11.0,]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Dxa.SiteProject" d:TargetPath="|Dxa.SiteProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Dxa.ModuleProject" d:TargetPath="|Dxa.ModuleProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Dxa.AreaRegistration" d:TargetPath="|Dxa.AreaRegistration;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Dxa.ControllerObject" d:TargetPath="|Dxa.ControllerObject;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Dxa.ModelObject" d:TargetPath="|Dxa.ModelObject;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Dxa.ViewObject" d:TargetPath="|Dxa.ViewObject;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+  </Assets>
+</PackageManifest>

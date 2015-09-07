@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>DXA AreaRegistration</Name>
+    <Description>DXA AreaRegistration: registration for custom views when creating a site or module.
+
+More information about the Digital Experience Accelerator can be found at https://community.sdl.com/dxa. </Description>
+    <Icon>Dxa.AreaRegistration.ico</Icon>
+    <TemplateID>d6989a61-507a-4c33-8907-9afd7f208a2f</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>SiteAreaRegistration.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">SiteAreaRegistration.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
