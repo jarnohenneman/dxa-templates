@@ -44,6 +44,69 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages\CommonServiceLocator.1.3.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.AspNet.Mvc.5.1.2.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.AspNet.Razor.3.1.2.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.AspNet.WebPages.3.1.2.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.Data.Edm.5.6.4.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.Data.OData.5.6.4.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.Data.Services.Client.5.6.4.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.OData.Client.6.13.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.OData.Core.6.13.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.OData.Edm.6.13.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.Spatial.6.13.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Microsoft.Web.Infrastructure.1.0.0.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Newtonsoft.Json.7.0.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Sdl.Dxa.Framework.Web8.1.4.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Sdl.Web.Cil.8.1.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Sdl.Web.Context.Client.8.1.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Sdl.Web.Context.Image.8.1.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Sdl.Web.Delivery.8.1.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\System.Spatial.5.6.4.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Unity.3.5.1404.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="packages\Unity.Mvc5.1.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -92,9 +155,7 @@
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="packages\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

@@ -20,4 +20,14 @@ More information about the Digital Experience Accelerator can be found at https:
     </References>
     <ProjectItem ReplaceParameters="true">DxaView.cshtml</ProjectItem>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="Dxa.VsixExtensions.a452ff57-dc92-4db0-9ae7-9d45eb1cd405">
+      <!-- DXA - contains Sdl.Web.Common and Sdl.Web.Mvc -->
+      <package id="Sdl.Dxa.Framework.Web8" version="1.4.0" targetFramework="net452" />
+    </packages>
+  </WizardData>
 </VSTemplate>
