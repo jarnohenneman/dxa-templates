@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Dxa.VsixExtensions.a452ff57-dc92-4db0-9ae7-9d45eb1cd405" Version="1.1" Language="en-US" Publisher="Jarno Henneman" />
+    <Identity Id="Dxa.VsixExtensions.a452ff57-dc92-4db0-9ae7-9d45eb1cd405" Version="1.4" Language="en-US" Publisher="Jarno Henneman" />
     <DisplayName>DXA Visual Studio Templates</DisplayName>
     <Description xml:space="preserve">Visual Studio Templates for Digital Experience Accelerator.</Description>
     <MoreInfo>https://community.sdl.com/dxa</MoreInfo>
